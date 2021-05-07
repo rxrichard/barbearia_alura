@@ -1,6 +1,10 @@
 * {
   box-sizing: border-box;
 }
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background: #cccccc;
   padding: 20px 0;
@@ -26,6 +30,17 @@ nav a {
   font-size: 22px;
   text-decoration: none;
 }
+footer{
+  text-align: center;
+  background: url("/images/bg.jpg");
+  padding: 40px 0;
+}
+.copyright{
+  color: whitesmoke;
+  font-size: 13px;
+  margin: 20px 0 0 0 ;
+}
+/*PAGINA PRODUTOS*/
 .produtos {
   width: 940px;
   margin: 0 auto;
@@ -68,21 +83,11 @@ nav a:hover{
 .produtos li:hover h2{
   font-size: 34px;
 }
-
-footer{
-  text-align: center;
-  background: url("/images/bg.jpg");
-  padding: 40px 0;
-}
-.copyright{
-  color: whitesmoke;
-  font-size: 13px;
-  margin: 20px 0 0 0 ;
-}
 main{
   width: 940px;
   margin: 0 auto;
 }
+/* PAGINA CONTATO */
 form{
   margin: 40px 0; 
 }
@@ -130,4 +135,40 @@ table thead{
 td,th{
   border: 1px solid #000;
   padding: 10px 60px;
+}
+/* FIM PAGINA CONTATO */
+
+/* PAGINA INICIAL */
+.banner{
+  width: 100%;
+}
+.titulo_principal{
+  text-align: center;
+  font-size: 2em;
+  margin: 0 0 1em;
+  clear: left;
+}
+.principal p{
+  margin: 0 0 1em;
+}
+.principal strong{
+  font-weight: 700; 
+}
+.principal em{
+  font-style:italic ;
+}
+.utensilios{
+  width: 125px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+.img_beneficios{
+  width: 50%;
+}
+.mapa{
+  padding: 3em 0;
+}
+.mapa p{
+  margin:  0 0 2em;
+  text-align: center;
 }
