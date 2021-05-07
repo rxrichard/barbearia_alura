@@ -1,6 +1,30 @@
 * {
   box-sizing: border-box;
+  font-size: 16px;
 }
+/* PAGINA HOME */
+
+.titulo_principal{
+  padding-left: 20px ;
+}
+.titulo_centralizado{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+#mission{
+  font-size: 1.25rem;
+
+}
+#mission strong{
+  color: #f00;
+}
+#banner{
+  width: 100%;
+  position: relative;
+}
+/* FIM PAGINA HOME */
 header {
   background: #cccccc;
   padding: 20px 0;
