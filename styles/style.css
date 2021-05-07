@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  background: #cccccc;
+  padding: 20px 0;
+}
+.box {
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+nav {
+  position: absolute;
+  top: 110px;
+  right: 0;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: none;
+}
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+.produtos li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 30px 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+.produtos h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.descricao_produto {
+  font-size: 18px;
+}
+.preco_produto {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+nav a:hover{
+  color: #0f009b;
+  text-decoration: underline;
+}
+.produtos li:hover{
+  border-color: #0f009b;
+  transform: scale(1.05);
+}
+.produtos li:active{
+  border-color: #e00101;
+}
+.produtos li:hover h2{
+  font-size: 34px;
+}
+
+footer{
+  text-align: center;
+  background: url("/images/bg.jpg");
+  padding: 40px 0;
+}
+.copyright{
+  color: whitesmoke;
+  font-size: 13px;
+  margin: 20px 0 0 0 ;
+}
+main{
+  width: 940px;
+  margin: 0 auto;
+}
+form{
+  margin: 40px 0; 
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+.input_padrao{  
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+.checkbox{
+  margin: 20px 0;
+}
+
+.btn_enviar{
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 250ms ease-in-out all;
+  cursor: pointer;
+}
+.btn_enviar:hover{
+  background: orangered;
+  transform: scale(1.2);
+}
+
+table{
+  margin: 20px 0 40px;
+}
+table thead{
+  background: #555555;
+  color: #eeeeee;
+  font-weight: 600;
+}
+td,th{
+  border: 1px solid #000;
+  padding: 10px 60px;
+}
