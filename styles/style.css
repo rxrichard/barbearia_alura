@@ -83,9 +83,7 @@ nav a:hover{
 .produtos li:hover h2{
   font-size: 32px;
 }
-main{
-  
-}
+
 /* PAGINA CONTATO */
 form{
   margin: 40px 0; 
@@ -191,7 +189,7 @@ td,th{
   margin: 0 auto;
 }
 .lista_beneficios{
-  width: 40%;
+  width: 50%;
   display: inline-block;
   vertical-align: top;
 }
@@ -205,7 +203,7 @@ td,th{
   font-weight: bold;
   }
 .img_beneficios{
-  border-radius:45px;
+  /* border-radius:45px; */
   width: 50%;
   opacity: 0.3;
   transition: 400ms;
@@ -220,3 +218,23 @@ td,th{
   margin: 2em auto;
 }
 
+@media (max-width:480px) { /* smartphones, Android phones, landscape iPhone */
+  .box, .principal, .mapa_conteudo, .conteudo_beneficios, .video{
+    width: auto;
+  }
+  h1{
+    text-align: center;
+  }
+  nav{
+    position: static;
+  }
+  .conteudo_beneficios{
+    display: initial;
+    
+  }
+  .lista_beneficios, .img_beneficios{
+    width: 100%;
+    
+    
+  }
+}
