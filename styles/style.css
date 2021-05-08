@@ -30,6 +30,10 @@ nav a {
   font-size: 22px;
   text-decoration: none;
 }
+nav a:hover{
+  color: #0f009b;
+  text-decoration: underline;
+}
 footer{
   text-align: center;
   background: url("../images/bg.jpg");
@@ -69,10 +73,7 @@ footer{
   margin-top: 10px;
 }
 
-nav a:hover{
-  color: #0f009b;
-  text-decoration: underline;
-}
+
 .produtos li:hover{
   border-color: #0f009b;
   transform: scale(1.05);
@@ -219,22 +220,22 @@ td,th{
 }
 
 @media (max-width:480px) { /* smartphones, Android phones, landscape iPhone */
-  .box, .principal, .mapa_conteudo, .conteudo_beneficios, .video{
+  .box, .principal, .mapa_conteudo, .conteudo_beneficios, .video, .produtos{
     width: auto;
   }
+
   h1{
     text-align: center;
   }
   nav{
     position: static;
   }
-  .conteudo_beneficios{
+  .conteudo_beneficios, .produtos li{
     display: initial;
     
   }
-  .lista_beneficios, .img_beneficios{
-    width: 100%;
-    
-    
+  .lista_beneficios, .img_beneficios, .descricao_produto, .preco_produto, .produtos li{
+    width: 80%;
+      
   }
 }
