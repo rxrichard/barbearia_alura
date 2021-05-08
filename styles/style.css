@@ -145,7 +145,7 @@ footer{
   border-radius: 10px;
 }
 .produtos h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
 }
 .descricao_produto {
@@ -166,7 +166,7 @@ footer{
   border-color: #e00101;
 }
 .produtos li:hover h2{
-  font-size: 32px;
+  font-size: 30px;
 }
 
 /* PAGINA CONTATO */
