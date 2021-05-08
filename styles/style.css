@@ -171,7 +171,7 @@ footer{
 
 /* PAGINA CONTATO */
 form{
-  margin: 40px 0; 
+  margin: 40px auto; 
 }
 
 form label, form legend{
@@ -179,19 +179,25 @@ form label, form legend{
   font-size: 20px;
   margin: 0 0 10px;
 }
+fieldset{
+  width: 100%;
+  margin: 10px 90px;
+}
+
 .input_padrao{  
   display: block;
   margin: 0 0 20px;
   padding: 10px 25px;
-  width: 50%;
+  width: 80%;
 }
 .checkbox{
-  margin: 20px 0;
+  margin: 20px 0px 10px 90px;
 }
 
 .btn_enviar{
   width: 40%;
   padding: 15px 0;
+  margin: 5px 90px;
   background: orange;
   color: whitesmoke;
   font-weight: bold;
@@ -207,7 +213,7 @@ form label, form legend{
 }
 
 table{
-  margin: 20px 0 40px;
+  margin: 20px 0 25px 90px;
 }
 table thead{
   background: #555555;
