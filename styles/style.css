@@ -222,7 +222,7 @@ td,th{
 
 
 @media (max-width:480px) { /* smartphones, Android phones, landscape iPhone */
-  .box, .principal, .mapa_conteudo, .conteudo_beneficios, .video, .produtos{
+  .box, .principal, .conteudo_beneficios, .produtos{
     width: auto;
   }
 
@@ -234,12 +234,16 @@ td,th{
     text-align: center;
   }
   .conteudo_beneficios, .produtos li{
-    display: initial;
-    
+    flex-direction: column;
+  }
+  .video, .mapa_conteudo{
+   /* width: 95%; */
+   margin: 20px auto 0;
+
   }
   .lista_beneficios, .img_beneficios {
     width: 80%;
-    margin: auto;
+    margin: 10px auto;
   }
   .descricao_produto, .preco_produto {
     text-align: center;
