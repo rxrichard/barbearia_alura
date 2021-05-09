@@ -243,7 +243,7 @@ td,th{
     flex-direction: column;
   }
   .video, .mapa_conteudo{
-   /* width: 95%; */
+    width: 100%;
    margin: 20px auto 0;
 
   }
